@@ -114,7 +114,7 @@ nav{
 
 figure img{
     width: 100%;
-    height: 1000px;
+    height: 900px;
 }
 
 #img1_text{
@@ -150,6 +150,7 @@ figure img{
     color: black;
     font: bold 15px var(--font-v);
     margin-right: 10px;
+    cursor: pointer;
 }
 
 #img2{
@@ -162,7 +163,7 @@ figure img{
 }
 
 #right-ele h2{
-    background-color: #a1f558;
+    background-color: #5eeb71;
     font-family: var(--font-v);
     font-size:60px ;
     letter-spacing: 2px;
@@ -172,8 +173,9 @@ figure img{
 }
 
 #right-ele p{
-    font-size: 30px;
+    font-size: var(--img-p);
     margin-left: 15px;
+    margin-top: 20px;
 }
 
 #right-ele button{
@@ -188,13 +190,109 @@ figure img{
     position: relative;
     top: 50px;
     margin-left: 15px;
-}
+    cursor: pointer;
+}   
 
 #right{
-    background-color: #b7f283;
-    height: 1000px;
+    background-color: #87de93 ;
+    height: 900px;
     width: 60%;
 }
+
+#img3{
+    display: flex;
+
+}
+
+#img3_left{
+    width: 60%;
+
+}
+
+#img3_right{
+    background-color:#f2fa64 ;
+    width: 40%;
+    
+}
+
+#img3_right h2{
+    font-size: 60px;
+    letter-spacing: 2px;
+    margin-left: 15px;
+}
+
+#img3_right p{
+    font-size: var(--img-p);
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+#img3_right button{
+    width: 90px;
+    height: 35px;
+    font-size: 18px;
+    color: white;
+    background-color: black;
+    box-shadow: none;
+    border: none;
+    padding: 0px 5px;
+    position: relative;
+    top: 50px;
+    margin-left: 15px;
+    cursor: pointer;
+
+}
+
+#img4{
+    display: flex;
+}
+
+#img4_left{
+    width: 40%;
+    background-color:#87bbfa;
+}
+
+#img4_left h2{
+    background-color: #549ef8;
+    font-size: 60px;
+    
+    
+}
+
+#img4_left p{
+    font-size: var(--img-p);
+    margin-left: 15px;
+}
+
+#img4_left_buttons{
+    margin-top: 50px;
+    margin-left: 15px;
+}
+
+#img4_left_buttons button{
+
+    width: 90px;
+    height: 35px;
+    font-size: 18px;
+    color: white;
+    background-color: black;
+    box-shadow: none;
+    border: none;
+    padding: 0px 5px;
+    position: relative;
+    top: 50px;
+    margin-left: 15px;
+    cursor: pointer;
+    
+}
+
+#img4_right{
+    width: 70%;
+    position: relative;
+    
+}
+
+
 
 
 
