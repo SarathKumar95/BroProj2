@@ -452,6 +452,12 @@ figure img{
 
 }
 
+.f-container div{
+    margin-top: 20px;
+    
+}
+
+
 .f-container button{
 
     width: 90px;
@@ -462,9 +468,20 @@ figure img{
     box-shadow: none;
     border: none;
     cursor: pointer;
-    margin-right: 100px;
-    margin-top: 30px;
+    margin-left: 700px;
+    padding: 5px 0px;
+    
+ 
 
+}
+
+#fc-h3{
+    /*background-color: #5eeb71;*/
+    margin-left: 80px;
+}
+
+.f-container h3{
+    font-size: 23px;
 }
 
 
