@@ -52,10 +52,11 @@ nav{
     color: black;
 }
 
-.nav-right{
-    margin-top: 2px;
+#hpimg{
+    position: relative;
+    top: 15px;
+    
 }
-
 
 .nav-right{
     margin-top: 15px;
@@ -81,6 +82,12 @@ nav{
     width: 400px;
     height: 40px;
     font: 15px var(--font-v);
+}
+
+#glass{
+    position: relative;
+    right: 35px;
+    
 }
 
 #cart{
