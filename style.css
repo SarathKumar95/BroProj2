@@ -97,3 +97,25 @@ nav{
 
 
 /* nav ended */
+
+
+/* main started */
+
+#slider{
+    overflow: hidden;
+}
+
+
+#slider figure{
+    margin-top: 30px;
+    position: relative;
+}
+
+figure img{
+    width: 100%;
+    height: 700px;
+}
+
+
+
+/* main ended */
