@@ -116,6 +116,28 @@ figure img{
     height: 700px;
 }
 
+#img2{
+    display: flex;
+
+}
+
+#left img{
+    width: 100%;
+}
+
+#right-ele h2{
+    background-color: #a1f558;
+    font-family: var(--font-v);
+    font-size:60px ;
+    letter-spacing: 2px;
+}
+
+#right{
+    background-color: #b7f283;
+    height: 700px;
+    width: 60%;
+}
+
 
 
 /* main ended */
