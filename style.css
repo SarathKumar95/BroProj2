@@ -153,7 +153,7 @@ figure img{
     cursor: pointer;
 }
 
-#img2{
+#img2,#img3,#img4,#img5,#img6{
     display: flex;
 
 }
@@ -199,10 +199,6 @@ figure img{
     width: 60%;
 }
 
-#img3{
-    display: flex;
-
-}
 
 #img3_left{
     width: 60%;
@@ -241,10 +237,6 @@ figure img{
     margin-left: 15px;
     cursor: pointer;
 
-}
-
-#img4{
-    display: flex;
 }
 
 #img4_left{
@@ -292,9 +284,6 @@ figure img{
     
 }
 
-#img5{
-    display: flex;
-}
 
 #img5_left{
     width: 40%;
@@ -322,6 +311,7 @@ figure img{
     color: white;
     font-size: var(--img-p);
     line-height: 40px;
+    margin-left: 15px;
 }
 
 #img5_buttons button{
@@ -330,7 +320,7 @@ figure img{
     width: 90px;
     height: 35px;
     font-size: 18px;
-    color: black;
+    color: black    ;
     background-color: white;
     box-shadow: none;
     border: none;
@@ -340,6 +330,42 @@ figure img{
     margin-left: 15px;
     cursor: pointer;
 
+
+}
+
+#img6_right{
+    background-color: #636372;
+    width: 50%;
+    color: white;
+    margin-top: 0px;
+    
+}
+
+#img6_right h2{
+    background-color: #212237;
+    font-size: var(--img-h2);
+    text-align: center;
+}
+
+#img6_right p{
+    font-size: var(--img-p);
+    margin-left: 70px;
+}
+
+#img6_buttons button{
+
+    width: 90px;
+    height: 35px;
+    font-size: 18px;
+    color: white;
+    background-color: black;
+    box-shadow: none;
+    border: none;
+    padding: 0px 5px;
+    position: relative;
+    top: 50px;
+    margin-left: 70px;
+    cursor: pointer;
 
 }
 
