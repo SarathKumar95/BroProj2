@@ -126,13 +126,13 @@ figure img{
 }
 
 #img1_text h1{
-    font-size: 50px;
+    font-size: var(--img-h2);
     margin-bottom: 10px;
     margin-left: 15px;
 }
 
 #img1_text p{
-    font-size: 20px;
+    font-size: var(--img-p);
     margin-top: 10px;
     margin-left: 15px;
 }
@@ -165,7 +165,7 @@ figure img{
 #right-ele h2{
     background-color: #5eeb71;
     font-family: var(--font-v);
-    font-size:60px ;
+    font-size:var(--img-h2) ;
     letter-spacing: 2px;
     text-align: left;
     
@@ -216,7 +216,7 @@ figure img{
 }
 
 #img3_right h2{
-    font-size: 60px;
+    font-size: var(--img-h2);
     letter-spacing: 2px;
     margin-left: 15px;
 }
@@ -254,7 +254,7 @@ figure img{
 
 #img4_left h2{
     background-color: #549ef8;
-    font-size: 60px;
+    font-size: var(--img-h2);
     
     
 }
@@ -291,6 +291,39 @@ figure img{
     position: relative;
     
 }
+
+#img5{
+    display: flex;
+}
+
+#img5_left{
+    width: 40%;
+    margin-top: 0px;
+    margin-left: 0px;
+    background-color: #333333;
+
+}
+
+#img5_left h2{
+    font-size: var(--img-h2);
+    color: white;
+    background-color: black;
+    position: relative;
+    left: 0px;
+    text-align: center;
+    
+    
+
+
+}
+
+
+#img5_left p{
+    color: white;
+    font-size: var(--img-p);
+    line-height: 40px;
+}
+
 
 
 
