@@ -494,7 +494,7 @@ footer hr{
 .f-container2{
     background-color: black;
     color: white;
-    height: 400px;
+    height: 80px;
     
 }
 
@@ -521,5 +521,28 @@ footer hr{
     margin-left: 400px;
 }
 
+.f-container3{
+    display: flex;
+    gap: 50px;
+    background-color: black;
+    color: white;
+    padding-left: 400px;
+}
+
+.f-container3 ul{
+    list-style-type: none;
+
+    
+}
+
+.f-container3 ul li,h4{
+    line-height: 30px;
+    font-size: 15px;
+}
+
+#stay li{
+    display: inline;
+    margin-right: 8px;
+}
 
 /* footer end */
