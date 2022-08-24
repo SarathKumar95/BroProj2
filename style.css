@@ -29,6 +29,7 @@ nav{
     justify-content: space-between;
     margin-left: 26px;
     margin-top: 15px;
+    margin-right: 70px;
 }
 
 .nav-left, .nav-right{
@@ -37,28 +38,55 @@ nav{
 
 .nav-left li,.nav-right li{
     display: inline-block;
-    margin-right: 15px;
+    margin-right: 12px;
 }
 
-
-
-
-/*
 .nav-left a{
     text-decoration: none;
     color: grey;
     font: 20px var(--font-v);
     margin-left: 25px;   
 }
-*/
+
 .nav-left a:hover{
     color: black;
 }
 
+.nav-right{
+    margin-top: 2px;
+}
+
+
+.nav-right{
+    margin-top: 15px;
+}
 
 
 
+#signin{
+    background-color: black;
+    color: white;
+    height: 35px;
+    width: 80px;
+    font-family: var(--font-v);
+    font-size: 14px;
+    font-weight: bold;
+    box-shadow: none;
+    padding: 0px 2px;
+    border: none;
 
+}
+
+#hpsearch{
+    width: 400px;
+    height: 40px;
+    font: 15px var(--font-v);
+}
+
+#cart{
+    position: relative;
+    top: 8px;
+}
 
 
 /* nav ended */
