@@ -390,6 +390,7 @@ figure img{
     justify-content: center;
     gap: 40px;
     margin-top: 70px;
+    margin-bottom: 70px;
     
 }
 
@@ -437,3 +438,34 @@ figure img{
 
 
 /* main ended */
+
+
+/* footer start */
+
+.f-container{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+
+
+}
+
+.f-container button{
+
+    width: 90px;
+    height: 35px;
+    font-size: 18px;
+    color: black    ;
+    background-color: white;
+    box-shadow: none;
+    border: none;
+    cursor: pointer;
+    margin-right: 100px;
+    margin-top: 30px;
+
+}
+
+
+/* footer end */
