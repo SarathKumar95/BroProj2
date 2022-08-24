@@ -24,22 +24,41 @@
 
 /* nav started */
 
-nav{
+nav{ 
     display: flex;
     justify-content: space-between;
+    margin-left: 26px;
+    margin-top: 15px;
 }
 
+.nav-left, .nav-right{
+    list-style-type: none;
+}
+
+.nav-left li,.nav-right li{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+
+
+
+/*
 .nav-left a{
     text-decoration: none;
     color: grey;
-    font-size: 22px;
-    
-    
+    font: 20px var(--font-v);
+    margin-left: 25px;   
 }
-
+*/
 .nav-left a:hover{
     color: black;
 }
+
+
+
+
+
 
 
 /* nav ended */
