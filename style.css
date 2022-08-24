@@ -514,5 +514,12 @@ footer hr{
 
 }
 
+.f-container2 hr{
+    width: 60%;
+    height: 1px;
+    margin-top: 40px;
+    margin-left: 400px;
+}
+
 
 /* footer end */
