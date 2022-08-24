@@ -453,7 +453,7 @@ figure img{
 }
 
 .f-container div{
-    margin-top: 20px;
+    margin-top: 30px;
     
 }
 
@@ -486,8 +486,31 @@ figure img{
 
 footer hr{
     width: 100%;
-    height: 2px;
+    height: 1px;
     color: white;
+
+}
+
+.f-container2{
+    background-color: black;
+    color: white;
+    height: 400px;
+    
+}
+
+.f-container2 p{
+    font-size: 13px;
+    margin-left: 400px;
+    position: relative;
+    top: 20px;
+    
+}
+
+.f-container2 img{
+    margin-left: 2px;
+    margin-right: 10px;
+    position: relative;
+    top: 3px;
 
 }
 
