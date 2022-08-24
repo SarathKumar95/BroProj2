@@ -87,7 +87,8 @@ nav{
 
 #glass{
     position: relative;
-    right: 35px;
+    right: 45px;
+    cursor: pointer;
     
 }
 
@@ -484,7 +485,7 @@ figure img{
     font-size: 23px;
 }
 
-footer hr{
+#hr1{
     width: 100%;
     height: 1px;
     color: white;
@@ -544,5 +545,12 @@ footer hr{
     display: inline;
     margin-right: 8px;
 }
+
+
+.f-container4{
+    background-color: black;
+    color: white;
+}
+
 
 /* footer end */
