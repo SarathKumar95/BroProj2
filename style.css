@@ -103,19 +103,18 @@ nav{
 
 /* main started */
 
-#slider{
-    overflow: hidden;
-}
 
 
-#slider figure{
+
+.swiper{
     margin-top: 30px;
     position: relative;
+    height: 700px;
 }
 
-figure img{
+.swiper-slide img{
     width: 100%;
-    height: 900px;
+    height: 700px;
 }
 
 #img1_text{
@@ -128,14 +127,14 @@ figure img{
 
 #img1_text h1{
     font-size: var(--img-h2);
-    margin-bottom: 10px;
-    margin-left: 15px;
+    margin-top: 45px;
+    margin-left: 20px;
 }
 
 #img1_text p{
     font-size: var(--img-p);
     margin-top: 10px;
-    margin-left: 15px;
+    margin-left: -20px;
 }
 
 #img1_buttons{
@@ -175,8 +174,8 @@ figure img{
 
 #right-ele p{
     font-size: var(--img-p);
-    margin-left: 15px;
-    margin-top: 20px;
+    margin-left: -40px;
+    margin-top: 5px;
 }
 
 #right-ele button{
@@ -190,13 +189,13 @@ figure img{
     padding: 0px 5px;
     position: relative;
     top: 50px;
-    margin-left: 70px;
+    margin-left: 5px;
     cursor: pointer;
 }   
 
 #right{
     background-color: #87de93 ;
-    height: 900px;
+    height: 700px;
     width: 60%;
 }
 
@@ -216,12 +215,14 @@ figure img{
     font-size: var(--img-h2);
     letter-spacing: 2px;
     margin-left: 15px;
+    
+
 }
 
 #img3_right p{
     font-size: var(--img-p);
     margin-top: 20px;
-    margin-left: 15px;
+    margin-left: -25px;
 }
 
 #img3_right button{
@@ -248,6 +249,8 @@ figure img{
 #img4_left h2{
     background-color: #549ef8;
     font-size: var(--img-h2);
+    display: inline-block;
+    text-align: center;
     
     
 }
@@ -597,6 +600,8 @@ figure img{
     left: 150px;
     top: 20px;
 }
+
+#swiper
 
 
 /* footer end */
