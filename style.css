@@ -349,7 +349,7 @@ figure img{
 
 #img6_right p{
     font-size: var(--img-p);
-    margin-left: 240px;
+    margin-left: 70px;
     margin-top: 20px;
 }
 
@@ -365,7 +365,7 @@ figure img{
     padding: 0px 5px;
     position: relative;
     top: 50px;
-    margin-left: 240px;
+    margin-left: 70px;
     cursor: pointer;
 
 }
@@ -501,7 +501,7 @@ figure img{
 
 .f-container2 p{
     font-size: 13px;
-    margin-left: 400px;
+    margin-left: 200px;
     position: relative;
     top: 20px;
     
@@ -516,10 +516,10 @@ figure img{
 }
 
 .f-container2 hr{
-    width: 60%;
+    width: 80%;
     height: 1px;
     margin-top: 40px;
-    margin-left: 400px;
+    margin-left: 165px;
 }
 
 .f-container3{
@@ -527,7 +527,8 @@ figure img{
     gap: 50px;
     background-color: black;
     color: white;
-    padding-left: 400px;
+    padding-left: 175px;
+    
 }
 
 .f-container3 ul{
@@ -538,7 +539,7 @@ figure img{
 
 .f-container3 ul li,h4{
     line-height: 30px;
-    font-size: 15px;
+    font-size: 12px;
 }
 
 #stay li{
@@ -547,9 +548,46 @@ figure img{
 }
 
 
-.f-container4{
+#hr3{
+    color: var(--color-grey);
+    position: relative;
+    top: -1px;
+    width: 80%;
+    left: 150px;
+    
+    
+}
+
+#f-container5{
+    background-color: black;
+    position: relative;
+    top: -2px;
+    height: 100px;
+    padding-top: 20px;
+}
+
+.f-list{
+    margin-left: 150px;
+}
+
+.f-list a{
     background-color: black;
     color: white;
+    font-size: 12px;
+    text-decoration: none;
+
+}
+
+.f-list a:hover{
+    text-decoration: underline;
+}
+
+#copyright{
+    color: white;
+    font-size: 13px;
+    position: relative;
+    left: 150px;
+    top: 20px;
 }
 
 
