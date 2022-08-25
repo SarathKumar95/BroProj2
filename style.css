@@ -139,7 +139,7 @@ nav{
 
 #img1_buttons{
     margin-left: 15px;
-    margin-top:25px ;
+    margin-top:10px ;
     
 }
 
@@ -162,19 +162,19 @@ nav{
     width: 100%;
 }
 
+#img2-h2{
+    background-color: #a0f66e;
+}
+
 #right-ele h2{
-    background-color: #5eeb71;
-    font-family: var(--font-v);
-    font-size:var(--img-h2) ;
-    letter-spacing: 2px;
-    text-align: left;
-    
+    font-size:var(--img-h2);
+    margin-left: 10px;
     
 }
 
 #right-ele p{
     font-size: var(--img-p);
-    margin-left: -40px;
+    margin-left: -25px;
     margin-top: 5px;
 }
 
@@ -189,7 +189,7 @@ nav{
     padding: 0px 5px;
     position: relative;
     top: 50px;
-    margin-left: 5px;
+    margin-left: 25px;
     cursor: pointer;
 }   
 
@@ -246,24 +246,28 @@ nav{
     background-color:#87bbfa;
 }
 
-#img4_left h2{
+#img4-h2{
     background-color: #549ef8;
+    padding-bottom: 20px;
+}
+
+#img4_left h2{
     font-size: var(--img-h2);
-    display: inline-block;
     text-align: center;
+    
     
     
 }
 
 #img4_left p{
-    font-size: var(--img-p);
-    margin-left: 15px;
+    font-size: 30px;
+    margin-left: 77px;
     margin-top: 20px;
 }
 
 #img4_left_buttons{
     margin-top: 50px;
-    margin-left: 15px;
+    margin-left: 80px;
 }
 
 #img4_left_buttons button{
