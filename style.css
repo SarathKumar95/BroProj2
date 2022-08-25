@@ -375,13 +375,21 @@ figure img{
 
 #hey-container{
     margin-top: 50px;
-    text-align:justify;
     
 }
 
-#hey-container:first-child{
-    font:30px black;
+#hey-container h2,p{
+    padding-left: 45px;
+    padding-bottom: 8px;
     
+}
+
+#hey-container h2{
+    font-size: 40px;
+}
+
+#hey-container p{
+    font-size: 30px;
 }
 
 
