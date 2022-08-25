@@ -321,6 +321,10 @@ nav{
     margin-top: 25px;
 }
 
+#img5_buttons{
+    margin-left: 50px;
+}
+
 #img5_buttons button{
 
     
@@ -334,7 +338,7 @@ nav{
     padding: 0px 5px;
     position: relative;
     top: 50px;
-    margin-left: 15px;
+    margin-left: 12px;
     cursor: pointer;
 
 
@@ -348,15 +352,20 @@ nav{
     
 }
 
-#img6_right h2{
+#img6-h2{
     background-color: #212237;
+    height: 120px;
+
+}
+
+#img6_right h2{
     font-size: var(--img-h2);
-    text-align: center;
+    margin-left: 40px;
 }
 
 #img6_right p{
     font-size: var(--img-p);
-    margin-left: 70px;
+    margin-left: 0px;
     margin-top: 20px;
 }
 
@@ -372,7 +381,7 @@ nav{
     padding: 0px 5px;
     position: relative;
     top: 50px;
-    margin-left: 70px;
+    margin-left: 40px;
     cursor: pointer;
 
 }
@@ -601,7 +610,7 @@ nav{
     color: white;
     font-size: 13px;
     position: relative;
-    left: 150px;
+    left: 100px;
     top: 20px;
 }
 
